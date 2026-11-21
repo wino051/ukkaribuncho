@@ -231,8 +231,8 @@
   .link-card svg { width: 30px; height: 30px; color: var(--accent-blue); stroke: var(--accent-blue); }
   .link-card .title { font-family: var(--latin); font-weight: 600; font-size: 15px; }
   .link-card .sub { font-size: 12.5px; color: var(--ink-soft); }
-  .support-list { display: flex; flex-direction: column; gap: 10px; }
-
+  .support-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  
   /* ---------- Support banner ---------- */
   .support {
     background: var(--panel);
