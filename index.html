@@ -187,6 +187,23 @@
   }
   .cta-btn svg { width: 14px; height: 14px; }
 
+    /* ---------- Events ---------- */
+  .events { margin-bottom: 20px; }
+  .events-label {
+    font-family: var(--latin); font-weight: 600; font-size: 13px;
+    letter-spacing: 0.12em; color: var(--ink-soft); margin: 0 4px 10px;
+  }
+  .event-list {
+    background: var(--panel); border: 1px solid var(--accent-ink);
+    border-radius: var(--radius-md); margin: 0; padding: 0; list-style: none;
+  }
+  .event-item {
+    display: flex; gap: 16px; align-items: baseline;
+    padding: 14px 18px; font-size: 14.5px;
+  }
+  .event-item + .event-item { border-top: 1px solid var(--line); }
+  .event-date { flex-shrink: 0; color: var(--ink-soft); font-size: 13.5px; }
+  
   /* ---------- Link cards ---------- */
   .card-row {
     display: grid;
@@ -284,6 +301,14 @@
     </a>
   </div>
 
+  <div class="events">
+    <p class="events-label">EVENT</p>
+    <ul class="event-list">
+      <li class="event-item"><span class="event-date">2026.12.13</span><span>COMITIA 158 / ふ55aウッカ林檎堂</span></li>
+      <li class="event-item"><span class="event-date">2027.02.21</span><span>VALENTINE ROSE FES 2027</span></li>
+    </ul>
+  </div>
+  
   <div class="card-row">
     <a class="link-card" href="https://www.pixiv.net/users/21403501" target="_blank" rel="noopener noreferrer">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M4 7a1 1 0 0 1 1-1h4l2 2h8a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7z"></path></svg>
